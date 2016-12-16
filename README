@@ -16,9 +16,22 @@ For viewing the database is necessary having an installed version of OpenRave wi
 Instruccions for downloading and installing OpenRave and ODE can be found at: 
 http://openrave.org/docs/latest_stable/install
 
-It's also necessary having installed the library H5PY (Python HDF5)
+Also, updated instruction for installen OpenRAVE in ubuntu 14.04 can be found in:
 
-This package should be compatible with Ros Indigo, but it's not mandatory using ROS
+https://github.com/rdiankov/openrave/blob/master/docs/Tutorial%20for%20Installing%20Openrave%20in%20Ubuntu-Ubuntu%20Mate%2014.04.2%20x64.rst
+
+It's also necessary having installed the library H5PY (Python HDF5). Instructions:
+
+	$sudo apt-get install python-poppler-qt4
+	$sudo pip install cython
+	$sudo pip install h5py
+
+Finally, Python-qt4 is needed:
+
+	$sudo apt-get install python-poppler-qt4
+
+
+This package should be compatible with Ros Indigo, but it's not mandatory use ROS
 
 #####################################################################################################################################################################
 
